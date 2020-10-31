@@ -141,15 +141,15 @@
 
       
         <?php
-    session_start();
+//     session_start();
     
-    if($_SESSION['test_ongoing']  == "true"){
-        echo "Test Ongoing";
-        header("Location: quiz.php");
-    }else if(!isset($_SESSION['student_details'])){
-        echo "You are not logged in";
-        header("Location: ../index.php");
-    }
+//     if($_SESSION['test_ongoing']  == "true"){
+//         echo "Test Ongoing";
+//         header("Location: quiz.php");
+//     }else if(!isset($_SESSION['student_details'])){
+//         echo "You are not logged in";
+//         header("Location: ../index.php");
+//     }
 
     function createCard(array $row) { ?>
   
