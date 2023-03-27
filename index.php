@@ -16,7 +16,7 @@
 	if(isset($_SESSION['test_ongoing']))
 		header("Location: files/quiz.php");
 
-		echo $test_ongoing;
+		if(isset($_SESSION['test_ongoing'])) echo "ok è partito";
 
 ?>
 
