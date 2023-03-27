@@ -1,5 +1,21 @@
 <?php
     include '../database/config.php';
+
+
+
+/* 
+TESTING ADEL
+
+
+*/
+
+
+
+
+
+
+
+
     session_start();
 
     if(!isset($_SESSION['test_id']))

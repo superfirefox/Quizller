@@ -1,6 +1,23 @@
 <?php
+	echo "debugging adel";
+	echo "debugging adel";
+	echo "debugging adel";
+	echo "debugging adel";
+	echo "<br>";
+	echo "<br>";
+	echo "<br>";
+	echo "<br>";
+	echo "<br>";
+	echo "debugging adel";
+	echo "debugging adel";
+	echo "debugging adel";
+	echo "debugging adel";
+	
 	if(isset($_SESSION['test_ongoing']))
 		header("Location: files/quiz.php");
+
+		echo $test_ongoing;
+
 ?>
 
 <html>
@@ -24,6 +41,47 @@
 		<script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
 	</head>
+
+
+	<html>
+
+/* DEBUGGIN ADEL */
+
+	<body>
+
+<?php
+echo "<h1 style=\"background-color:DodgerBlue;\">"."Hello World"."</h1>";
+
+//echo "<p style=\"background-color:Tomato;\">"."Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+//Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."."</p>";
+echo "debugging adel";
+echo "debugging adel";
+echo "debugging adel";
+echo "debugging adel";
+//$txt1 = "Learn PHP";
+//$txt2 = "W3Schools.com";
+//$x = 5;
+//$y = 4;
+
+//echo "<h2>" . $txt1 . "</h2>";
+//echo "Study PHP at " . $txt2 . "<br>";
+// echo $x + $y;
+
+
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
 
 	<body>
 		<!-- Header -->
