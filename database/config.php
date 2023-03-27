@@ -6,7 +6,10 @@ define("DB_UNAME","root");
 define("DB_DNAME","secondo");
 $conn=mysqli_connect(DB_HOST,DB_UNAME,DB_PASS,DB_DNAME);
 
-
+echo "<h1 style=\"background-color:DodgerBlue;\">"."questo è dentor CONFIG.php"."</h1>";
+echo "<h1 style=\"background-color:DodgerBlue;\">".DB_HOST."</h1>";
+echo "<h1 style=\"background-color:DodgerBlue;\">".DB_HOST."</h1>";
+echo "<h1 style=\"background-color:DodgerBlue;\">".DB_HOST."</h1>";
 echo "<h1 style=\"background-color:DodgerBlue;\">".DB_HOST."</h1>";
 
 ?>

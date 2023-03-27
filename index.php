@@ -12,13 +12,21 @@
 	echo "debugging adel";
 	echo "debugging adel";
 	echo "debugging adel";
+	echo "<br>";
+	echo "<br>";
 	
 	if(isset($_SESSION['test_ongoing']))
 		header("Location: files/quiz.php");
 
-		if(isset($_SESSION['test_ongoing'])) echo "ok è partito";
+		if(isset($_SESSION['test_ongoing'])) echo "NON è partito";
+		else echo "****** è partito";
 
 ?>
+
+
+
+
+
 
 <html>
 	<head>
